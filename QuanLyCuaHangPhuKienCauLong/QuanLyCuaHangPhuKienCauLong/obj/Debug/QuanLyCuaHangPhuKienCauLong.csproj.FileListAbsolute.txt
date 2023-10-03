@@ -1,0 +1,68 @@
+D:\Code .NET\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\bin\Debug\QuanLyCuaHangPhuKienCauLong.exe
+D:\Code .NET\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\bin\Debug\QuanLyCuaHangPhuKienCauLong.pdb
+D:\Code .NET\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.csprojResolveAssemblyReference.cache
+D:\Code .NET\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmNhanVien.resources
+D:\Code .NET\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.Properties.Resources.resources
+D:\Code .NET\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.csproj.GenerateResource.Cache
+D:\Code .NET\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.exe
+D:\Code .NET\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.pdb
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.exe
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.pdb
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\bin\Debug\QuanLyCuaHangPhuKienCauLong.exe
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\bin\Debug\QuanLyCuaHangPhuKienCauLong.pdb
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.csprojResolveAssemblyReference.cache
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmHoaDon.resources
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmMenu.resources
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmNhaCungCap.resources
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmNhanVien.resources
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmPhieuNhap.resources
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmSanPham.resources
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.Properties.Resources.resources
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.csproj.GenerateResource.Cache
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.exe
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.pdb
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\bin\Debug\QuanLyCuaHangPhuKienCauLong.exe
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\bin\Debug\QuanLyCuaHangPhuKienCauLong.pdb
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.csprojResolveAssemblyReference.cache
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmHoaDon.resources
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmMenu.resources
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmNhaCungCap.resources
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmNhanVien.resources
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmPhieuNhap.resources
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmSanPham.resources
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.Properties.Resources.resources
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.csproj.GenerateResource.Cache
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.csproj.ResolveComReference.cache
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmThongKeHangTon.resources
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\RdlCompile.cache
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\RdlCompile.compiled
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\bin\Debug\QuanLyCuaHangPhuKienCauLong.exe.config
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmThongKeDoanhThu.resources
+D:\Đồ án NET test 17-9\Đồ án\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmDangNhap.resources
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\bin\Debug\QuanLyCuaHangPhuKienCauLong.exe.config
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.csproj.ResolveComReference.cache
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.exe
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.pdb
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\bin\Debug\QuanLyCuaHangPhuKienCauLong.exe
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\bin\Debug\QuanLyCuaHangPhuKienCauLong.pdb
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.csprojResolveAssemblyReference.cache
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmDangNhap.resources
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmHoaDon.resources
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmMenu.resources
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmNhaCungCap.resources
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmNhanVien.resources
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmPhieuNhap.resources
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmSanPham.resources
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmThongKeDoanhThu.resources
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmThongKeHangTon.resources
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.Properties.Resources.resources
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.csproj.GenerateResource.Cache
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\RdlCompile.cache
+D:\vd\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\RdlCompile.compiled
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\bin\Debug\QuanLyCuaHangPhuKienCauLong.exe.config
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.csproj.ResolveComReference.cache
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmDangNhap.resources
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmThongKeDoanhThu.resources
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\QuanLyCuaHangPhuKienCauLong.frmThongKeHangTon.resources
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\RdlCompile.cache
+D:\Đồ án C#\QuanLyCuaHangPhuKienCauLong\QuanLyCuaHangPhuKienCauLong\obj\Debug\RdlCompile.compiled
