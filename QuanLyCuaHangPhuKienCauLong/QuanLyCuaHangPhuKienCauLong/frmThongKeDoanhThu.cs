@@ -98,7 +98,7 @@ namespace QuanLyCuaHangPhuKienCauLong
         {
             if (rdbHoaDon.Checked)
             {
-                btnLamMoi.PerformClick();
+               // btnLamMoi.PerformClick();
                 string query = string.Format("select MaHD, NgayBan, TongTien from HoaDon WHERE NgayBan BETWEEN '{0}' AND '{1}'", dtpNgayBD.Value.ToString("yyyy-MM-dd"), dtpNgayKT.Value.ToString("yyyy-MM-dd"));
                 DataSet ds = kn.LayDuLieu(query);
                 dgvThongKe.DataSource = ds.Tables[0];
@@ -130,7 +130,7 @@ namespace QuanLyCuaHangPhuKienCauLong
             }
             else if (rdbPhieuNhap.Checked)
             {
-                btnLamMoi.PerformClick();
+                //btnLamMoi.PerformClick();
                 string query = string.Format("select PHieuNhap.MaPN, NgayNhap, TongTien from PhieuNhap inner join ChiTietPN on PhieuNhap.MaPN = ChiTietPN.MaPN where NgayNhap BETWEEN '{0}' AND '{1}' group by PhieuNhap.MaPN, NgayNhap, TongTien", dtpNgayBD.Value.ToString("yyyy-MM-dd"), dtpNgayKT.Value.ToString("yyyy-MM-dd"));
                 DataSet ds = kn.LayDuLieu(query);
                 dgvThongKe.DataSource = ds.Tables[0];
@@ -158,6 +158,10 @@ namespace QuanLyCuaHangPhuKienCauLong
                     txtTong.Text = "";
                     lbBangChu1.Text = "";
                 }
+            }
+            else if (rdbHoaDon.Checked == false && rdbPhieuNhap.Checked == false)
+            {
+                MessageBox.Show("Vui long chọn thống kê theo hóa đơn hoặc phiếu nhập!!!");
             }
         }
 
@@ -187,6 +191,11 @@ namespace QuanLyCuaHangPhuKienCauLong
         }
 
         private void frmThongKeDoanhThu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTongTien_Click(object sender, EventArgs e)
         {
 
         }

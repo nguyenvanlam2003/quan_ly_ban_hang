@@ -26,8 +26,8 @@ namespace QuanLyCuaHangPhuKienCauLong
         SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-14GA20T\SQLEXPRESS;Initial Catalog=DoAn_C#;Integrated Security=True");
         private void loaDataGridView()
         {
-            
-            string query = "select HoaDon.MaHD,ngayban,manv,MaSP,GiaBan,SoLuong,GiamGia,ThanhTien from chitietHD,HoaDon where HoaDon.MaHD=ChiTietHD.MaHD ";
+
+            string query = "select * from HoaDon  ";
             conn.Open();
             SqlDataAdapter da = new SqlDataAdapter(query, conn);
             DataSet ds = new DataSet();
@@ -37,16 +37,12 @@ namespace QuanLyCuaHangPhuKienCauLong
             dataGridView1.Columns[0].HeaderText = "Mã hóa đơn";
             dataGridView1.Columns[1].HeaderText = "Ngày bán";
             dataGridView1.Columns[2].HeaderText = "Mã nhân viên";
-            dataGridView1.Columns[3].HeaderText = "Mã sản phẩm";
-            dataGridView1.Columns[4].HeaderText = "Giá bán";
-            dataGridView1.Columns[5].HeaderText = "Số lượng";
-            dataGridView1.Columns[6].HeaderText = "Giảm giá";
-            dataGridView1.Columns[7].HeaderText = "Thành tiền";
-            dataGridView1.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            dataGridView1.Columns[4].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridView1.Columns[5].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridView1.Columns[6].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridView1.Columns[7].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridView1.Columns[3].HeaderText = "Tổng tiền";
+          //  dataGridView1.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+          //  dataGridView1.Columns[0].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridView1.Columns[1].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridView1.Columns[2].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridView1.Columns[3].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
 
             conn.Close();
         }
@@ -68,9 +64,24 @@ namespace QuanLyCuaHangPhuKienCauLong
                 conn.Open();
                 string query2 = string.Format("select TongTien from HoaDon where MaHD='{0}'", txtMaHD.Text);
                 SqlCommand cmd = new SqlCommand(query2, conn);
-                string TongTien = cmd.ExecuteScalar().ToString();
-                txtTongTien.Text = TongTien;
+              //  string TongTien = cmd.ExecuteScalar().ToString();
+               // txtTongTien.Text = TongTien;
+                object result = cmd.ExecuteScalar().ToString();
+                string TongTien = result.ToString();
+                double tongTien;
+                if (double.TryParse(TongTien, out tongTien))
+                {
+                    txtTongTien.Text = TongTien;
+                    lblTongTien.Text = "Bằng chữ: " + NumberToWordsConverter.ChuyenSoSangChuoi(tongTien);
+                }
+                else
+                {
+                    txtTongTien.Text = "";
+                    lblTongTien.Text = "";
+                }
                 conn.Close();
+
+               
             }
             catch (Exception ex)
             {
@@ -244,7 +255,7 @@ namespace QuanLyCuaHangPhuKienCauLong
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             int a = dataGridView1.ColumnCount;
-            if (a == 8)
+            if (a == 4)
             {
                 if (e.RowIndex >= 0)
                 {
@@ -429,7 +440,7 @@ namespace QuanLyCuaHangPhuKienCauLong
             try
             {
                 dataGridView1.Columns.Clear();
-                string query = string.Format("select HoaDon.MaHD,ngayban,manv,MaSP,GiaBan,SoLuong,GiamGia,ThanhTien from chitietHD,HoaDon where HoaDon.MaHD=ChiTietHD.MaHD and ChiTietHD.MaHD='{0}'", cmbMaHoaDon.Text);
+                string query = string.Format("select * from HoaDon where MaHD='{0}'", cmbMaHoaDon.Text);
                 conn.Open();
                 SqlDataAdapter da = new SqlDataAdapter(query, conn);
                 DataSet ds = new DataSet();
@@ -441,15 +452,15 @@ namespace QuanLyCuaHangPhuKienCauLong
                 dataGridView1.Columns[0].HeaderText = "Mã hóa đơn";
                 dataGridView1.Columns[1].HeaderText = "Ngày bán";
                 dataGridView1.Columns[2].HeaderText = "Mã nhân viên";
-                dataGridView1.Columns[3].HeaderText = "Mã sản phẩm";
-                dataGridView1.Columns[4].HeaderText = "Giá bán";
-                dataGridView1.Columns[5].HeaderText = "Số lượng";
-                dataGridView1.Columns[6].HeaderText = "Giảm giá";
-                dataGridView1.Columns[7].HeaderText = "Thành tiền";
-                dataGridView1.Columns[4].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-                dataGridView1.Columns[5].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-                dataGridView1.Columns[6].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-                dataGridView1.Columns[7].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+               // dataGridView1.Columns[3].HeaderText = "Mã sản phẩm";
+               // dataGridView1.Columns[4].HeaderText = "Giá bán";
+               // dataGridView1.Columns[5].HeaderText = "Số lượng";
+                // dataGridView1.Columns[6].HeaderText = "Giảm giá";
+                dataGridView1.Columns[3].HeaderText = "Tổng tiền";
+                dataGridView1.Columns[0].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+                dataGridView1.Columns[1].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+                dataGridView1.Columns[2].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+                dataGridView1.Columns[3].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
                 conn.Close();
             }
             catch (Exception ex)
@@ -564,6 +575,11 @@ namespace QuanLyCuaHangPhuKienCauLong
             {
                 MessageBox.Show("Vui lòng chọn hóa đơn cần in");
             }
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }

@@ -44,6 +44,7 @@
             this.GroupBox2 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.lblTongTien = new System.Windows.Forms.Label();
             this.txtTongTien = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.Panel4 = new System.Windows.Forms.Panel();
@@ -54,6 +55,7 @@
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnIn = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
+            this.btnThem = new System.Windows.Forms.Button();
             this.BackgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.Label2 = new System.Windows.Forms.Label();
             this.TxtMaNV = new System.Windows.Forms.TextBox();
@@ -68,7 +70,6 @@
             this.cmbMaHoaDon = new System.Windows.Forms.ComboBox();
             this.Label1 = new System.Windows.Forms.Label();
             this.Panel1 = new System.Windows.Forms.Panel();
-            this.btnThem = new System.Windows.Forms.Button();
             this.Panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.upDowGiamGia)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.upDowSoLuong)).BeginInit();
@@ -160,6 +161,7 @@
             // 
             // Panel5
             // 
+            this.Panel5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.Panel5.Controls.Add(this.upDowGiamGia);
             this.Panel5.Controls.Add(this.upDowSoLuong);
             this.Panel5.Controls.Add(this.cmbMaSP);
@@ -202,6 +204,7 @@
             // 
             // GroupBox2
             // 
+            this.GroupBox2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.GroupBox2.Controls.Add(this.dataGridView1);
             this.GroupBox2.Controls.Add(this.panel6);
             this.GroupBox2.Controls.Add(this.Panel5);
@@ -229,9 +232,12 @@
             this.dataGridView1.Size = new System.Drawing.Size(914, 146);
             this.dataGridView1.TabIndex = 20;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // panel6
             // 
+            this.panel6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panel6.Controls.Add(this.lblTongTien);
             this.panel6.Controls.Add(this.txtTongTien);
             this.panel6.Controls.Add(this.label14);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -240,6 +246,16 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(914, 38);
             this.panel6.TabIndex = 3;
+            // 
+            // lblTongTien
+            // 
+            this.lblTongTien.AutoSize = true;
+            this.lblTongTien.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTongTien.Location = new System.Drawing.Point(56, 14);
+            this.lblTongTien.Name = "lblTongTien";
+            this.lblTongTien.Size = new System.Drawing.Size(68, 17);
+            this.lblTongTien.TabIndex = 20;
+            this.lblTongTien.Text = "Bằng chữ";
             // 
             // txtTongTien
             // 
@@ -263,6 +279,7 @@
             // 
             // Panel4
             // 
+            this.Panel4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.Panel4.Controls.Add(this.btnXoaHD);
             this.Panel4.Controls.Add(this.btnLamMoi);
             this.Panel4.Controls.Add(this.btnXoaSP);
@@ -356,6 +373,19 @@
             this.btnSua.UseVisualStyleBackColor = true;
             this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
+            // btnThem
+            // 
+            this.btnThem.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnThem.Location = new System.Drawing.Point(15, 6);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(2);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(109, 31);
+            this.btnThem.TabIndex = 8;
+            this.btnThem.Text = "Thêm hóa đơn";
+            this.btnThem.UseVisualStyleBackColor = false;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            // 
             // Label2
             // 
             this.Label2.AutoSize = true;
@@ -428,6 +458,7 @@
             // 
             // GroupBox1
             // 
+            this.GroupBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.GroupBox1.Controls.Add(this.TxtMaNV);
             this.GroupBox1.Controls.Add(this.Label5);
             this.GroupBox1.Controls.Add(this.dtpNgayBan);
@@ -446,6 +477,7 @@
             // 
             // Panel2
             // 
+            this.Panel2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.Panel2.Controls.Add(this.GroupBox1);
             this.Panel2.Controls.Add(this.Label2);
             this.Panel2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -491,6 +523,7 @@
             // 
             // Panel1
             // 
+            this.Panel1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.Panel1.Controls.Add(this.btnTimKiem);
             this.Panel1.Controls.Add(this.cmbMaHoaDon);
             this.Panel1.Controls.Add(this.Label1);
@@ -500,18 +533,6 @@
             this.Panel1.Name = "Panel1";
             this.Panel1.Size = new System.Drawing.Size(918, 46);
             this.Panel1.TabIndex = 3;
-            // 
-            // btnThem
-            // 
-            this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThem.Location = new System.Drawing.Point(15, 6);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(2);
-            this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(109, 31);
-            this.btnThem.TabIndex = 8;
-            this.btnThem.Text = "Thêm hóa đơn";
-            this.btnThem.UseVisualStyleBackColor = true;
-            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // frmHoaDon
             // 
@@ -588,5 +609,6 @@
         private System.Windows.Forms.NumericUpDown upDowGiamGia;
         private System.Windows.Forms.NumericUpDown upDowSoLuong;
         private System.Windows.Forms.Button btnXoaHD;
+        private System.Windows.Forms.Label lblTongTien;
     }
 }

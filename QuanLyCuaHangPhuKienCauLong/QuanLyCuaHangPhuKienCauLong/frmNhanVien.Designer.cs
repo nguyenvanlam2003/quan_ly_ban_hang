@@ -74,11 +74,11 @@
             // dgvNhanVien
             // 
             this.dgvNhanVien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvNhanVien.Location = new System.Drawing.Point(11, 296);
+            this.dgvNhanVien.Location = new System.Drawing.Point(0, 296);
             this.dgvNhanVien.Margin = new System.Windows.Forms.Padding(2);
             this.dgvNhanVien.Name = "dgvNhanVien";
             this.dgvNhanVien.RowTemplate.Height = 24;
-            this.dgvNhanVien.Size = new System.Drawing.Size(810, 194);
+            this.dgvNhanVien.Size = new System.Drawing.Size(826, 194);
             this.dgvNhanVien.TabIndex = 20;
             this.dgvNhanVien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvNhanVien_CellClick);
             // 
@@ -127,6 +127,7 @@
             // 
             // Panel2
             // 
+            this.Panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Panel2.Controls.Add(this.txtMatKhau);
             this.Panel2.Controls.Add(this.label12);
             this.Panel2.Controls.Add(this.txtSDT);
@@ -355,6 +356,7 @@
             // 
             // panel4
             // 
+            this.panel4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel4.Controls.Add(this.cmbTenNV);
             this.panel4.Controls.Add(this.btnTimKiem);
             this.panel4.Controls.Add(this.label10);
@@ -450,6 +452,7 @@
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel3.Controls.Add(this.btnLuu);
             this.panel3.Controls.Add(this.btnThem);
             this.panel3.Controls.Add(this.btnDong);
@@ -458,13 +461,14 @@
             this.panel3.Controls.Add(this.btnXoa);
             this.panel3.Location = new System.Drawing.Point(2, 495);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(851, 66);
+            this.panel3.Size = new System.Drawing.Size(824, 66);
             this.panel3.TabIndex = 12;
             // 
             // frmNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(826, 609);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.dgvNhanVien);

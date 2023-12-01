@@ -67,6 +67,7 @@
             this.txtMaPhieuNhap = new System.Windows.Forms.TextBox();
             this.Label3 = new System.Windows.Forms.Label();
             this.Panel2 = new System.Windows.Forms.Panel();
+            this.lblTongTien = new System.Windows.Forms.Label();
             this.Panel1.SuspendLayout();
             this.GroupBox2.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -80,6 +81,7 @@
             // 
             // Panel1
             // 
+            this.Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Panel1.Controls.Add(this.btnTimKiem);
             this.Panel1.Controls.Add(this.cmbMaPhieuNhap);
             this.Panel1.Controls.Add(this.Label1);
@@ -124,6 +126,8 @@
             // 
             // GroupBox2
             // 
+            this.GroupBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.GroupBox2.Controls.Add(this.lblTongTien);
             this.GroupBox2.Controls.Add(this.panel6);
             this.GroupBox2.Controls.Add(this.Panel5);
             this.GroupBox2.Controls.Add(this.txtTongTien);
@@ -159,6 +163,7 @@
             // 
             // Panel5
             // 
+            this.Panel5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Panel5.Controls.Add(this.txtThanhTien);
             this.Panel5.Controls.Add(this.label7);
             this.Panel5.Controls.Add(this.upDowSL);
@@ -374,7 +379,7 @@
             // 
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(267, 0);
+            this.Label2.Location = new System.Drawing.Point(298, 0);
             this.Label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(252, 26);
@@ -478,6 +483,7 @@
             // 
             // Panel2
             // 
+            this.Panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Panel2.Controls.Add(this.GroupBox1);
             this.Panel2.Controls.Add(this.Label2);
             this.Panel2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -486,6 +492,16 @@
             this.Panel2.Name = "Panel2";
             this.Panel2.Size = new System.Drawing.Size(924, 167);
             this.Panel2.TabIndex = 5;
+            // 
+            // lblTongTien
+            // 
+            this.lblTongTien.AutoSize = true;
+            this.lblTongTien.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTongTien.Location = new System.Drawing.Point(63, 272);
+            this.lblTongTien.Name = "lblTongTien";
+            this.lblTongTien.Size = new System.Drawing.Size(68, 17);
+            this.lblTongTien.TabIndex = 21;
+            this.lblTongTien.Text = "Bằng chữ";
             // 
             // frmPhieuNhap
             // 
@@ -558,6 +574,7 @@
         private System.Windows.Forms.Button btnDong;
         internal System.Windows.Forms.TextBox txtThanhTien;
         internal System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblTongTien;
 
     }
 }

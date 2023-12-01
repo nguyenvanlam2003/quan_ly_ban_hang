@@ -105,6 +105,7 @@
             // 
             // Panel2
             // 
+            this.Panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Panel2.Controls.Add(this.updowSL);
             this.Panel2.Controls.Add(this.btnMoAnh);
             this.Panel2.Controls.Add(this.pbAnhSanPham);
@@ -276,6 +277,7 @@
             // 
             // panel4
             // 
+            this.panel4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel4.Controls.Add(this.btnTimkiem);
             this.panel4.Controls.Add(this.cmbTimkiem);
             this.panel4.Controls.Add(this.label6);
@@ -318,6 +320,7 @@
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel3.Controls.Add(this.btnThem);
             this.panel3.Controls.Add(this.btnDong);
             this.panel3.Controls.Add(this.btnSua);
@@ -426,6 +429,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(941, 492);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Panel2);

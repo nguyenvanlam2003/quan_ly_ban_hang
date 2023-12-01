@@ -160,6 +160,7 @@
             // 
             // Panel1
             // 
+            this.Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Panel1.Controls.Add(this.cmbTimKiem);
             this.Panel1.Controls.Add(this.label4);
             this.Panel1.Controls.Add(this.btnTimKiem);
@@ -167,7 +168,7 @@
             this.Panel1.Location = new System.Drawing.Point(0, 432);
             this.Panel1.Margin = new System.Windows.Forms.Padding(2);
             this.Panel1.Name = "Panel1";
-            this.Panel1.Size = new System.Drawing.Size(709, 58);
+            this.Panel1.Size = new System.Drawing.Size(707, 58);
             this.Panel1.TabIndex = 12;
             // 
             // cmbTimKiem
@@ -304,6 +305,7 @@
             // 
             // Panel2
             // 
+            this.Panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Panel2.Controls.Add(this.txtSoDienThoai);
             this.Panel2.Controls.Add(this.Label7);
             this.Panel2.Controls.Add(this.txtEmail);
@@ -319,11 +321,12 @@
             this.Panel2.Location = new System.Drawing.Point(0, 0);
             this.Panel2.Margin = new System.Windows.Forms.Padding(2);
             this.Panel2.Name = "Panel2";
-            this.Panel2.Size = new System.Drawing.Size(709, 213);
+            this.Panel2.Size = new System.Drawing.Size(707, 213);
             this.Panel2.TabIndex = 13;
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel3.Controls.Add(this.btnDong);
             this.panel3.Controls.Add(this.btnThem);
             this.panel3.Controls.Add(this.btnLammoi);
@@ -339,7 +342,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(709, 490);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(707, 490);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.Panel1);
             this.Controls.Add(this.dgvNhaCungCap);

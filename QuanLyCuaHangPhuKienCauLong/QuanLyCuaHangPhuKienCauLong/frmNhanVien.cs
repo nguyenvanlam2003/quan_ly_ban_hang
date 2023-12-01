@@ -139,9 +139,9 @@ namespace QuanLyCuaHangPhuKienCauLong
             string d = String.Format("{0}{1}{2}", partsDay[0], partsDay[1], partsDay[2]);
             string[] partsTime;
             partsTime = DateTime.Now.ToLongTimeString().Split(':');
-            if (partsTime[2].Substring(3, 2) == "CH")
+            if (partsTime[2].Substring(3, 2) == "AM")
                 partsTime[0] = ConvertTimeTo24(partsTime[0]);
-            if (partsTime[2].Substring(3, 2) == "SA")
+            if (partsTime[2].Substring(3, 2) == "PM")
                 if (partsTime[0].Length == 1)
                     partsTime[0] = "0" + partsTime[0];
             partsTime[2] = partsTime[2].Remove(2, 3);

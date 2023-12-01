@@ -27,10 +27,19 @@ namespace QuanLyCuaHangPhuKienCauLong
         }
         private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
             frmNhanVien nv = new frmNhanVien();
-            nv.ShowDialog();
-            this.Show();
+            int desiredWidth =nv.Width; 
+            int desiredHeight = nv.Height+20; 
+            this.Size = new Size(desiredWidth, desiredHeight);
+            nv.FormBorderStyle = FormBorderStyle.None;
+            nv.TopLevel = false;
+            panel_cha.Controls.Clear();
+            nv.Dock = DockStyle.Fill;
+            panel_cha.Controls.Add(nv);
+            nv.Show();
+            pictureBox1.Dock = DockStyle.Fill;
+            panel_cha.Controls.Add(pictureBox1);
+            pictureBox1.Show();
         }
 
         private void frmMenu_Load(object sender, EventArgs e)
@@ -59,11 +68,20 @@ namespace QuanLyCuaHangPhuKienCauLong
 
         private void hóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
             string ma = MaNV;
             frmHoaDon HD = new frmHoaDon(ma);
-            HD.ShowDialog();
-            this.Show();
+            int desiredWidth = HD.Width;
+            int desiredHeight = HD.Height + 20;
+            this.Size = new Size(desiredWidth, desiredHeight);
+            HD.FormBorderStyle = FormBorderStyle.None;
+            HD.TopLevel = false;
+            panel_cha.Controls.Clear();
+            HD.Dock = DockStyle.Fill;
+            panel_cha.Controls.Add(HD);
+            HD.Show();
+            pictureBox1.Dock = DockStyle.Fill;
+            panel_cha.Controls.Add(pictureBox1);
+            pictureBox1.Show();
         }
 
         private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
@@ -73,43 +91,96 @@ namespace QuanLyCuaHangPhuKienCauLong
 
         private void phiếuNhậpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
             string ma=MaNV;
             frmPhieuNhap PN=new frmPhieuNhap(ma);
-            PN.ShowDialog();
-            this.Show();
+            int desiredWidth = PN.Width;
+            int desiredHeight = PN.Height + 20;
+            this.Size = new Size(desiredWidth, desiredHeight);
+            PN.FormBorderStyle = FormBorderStyle.None;
+            PN.TopLevel = false;
+            panel_cha.Controls.Clear();
+            PN.Dock = DockStyle.Fill;
+            panel_cha.Controls.Add(PN);
+            PN.Show();
+            pictureBox1.Dock = DockStyle.Fill;
+            panel_cha.Controls.Add(pictureBox1);
+            pictureBox1.Show();
         }
 
         private void nhàCungCấpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
             frmNhaCungCap ncc = new frmNhaCungCap();
-            ncc.ShowDialog();
-            this.Show();
+            int desiredWidth = ncc.Width;
+            int desiredHeight = ncc.Height + 20;
+            this.Size = new Size(desiredWidth, desiredHeight);
+            ncc.FormBorderStyle = FormBorderStyle.None;
+            ncc.TopLevel = false;
+            panel_cha.Controls.Clear();
+            ncc.Dock = DockStyle.Fill;
+            panel_cha.Controls.Add(ncc);
+            ncc.Show();
+            pictureBox1.Dock = DockStyle.Fill;
+            panel_cha.Controls.Add(pictureBox1);
+            pictureBox1.Show();
         }
 
         private void sảnPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
             frmSanPham sp = new frmSanPham();
-            sp.ShowDialog();
-            this.Show();
+            int desiredWidth = sp.Width;
+            int desiredHeight = sp.Height + 20;
+            this.Size = new Size(desiredWidth, desiredHeight);
+            sp.FormBorderStyle = FormBorderStyle.None;
+            sp.TopLevel = false;
+            panel_cha.Controls.Clear();
+            sp.Dock = DockStyle.Fill;
+            panel_cha.Controls.Add(sp);
+            sp.Show();
+            pictureBox1.Dock = DockStyle.Fill;
+            panel_cha.Controls.Add(pictureBox1);
+            pictureBox1.Show();
         }
 
         private void thốngKêHàngTồnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
             frmThongKeHangTon frm = new frmThongKeHangTon();
-            frm.ShowDialog();
-            this.Show();
+            int desiredWidth = frm.Width;
+            int desiredHeight = frm.Height + 20;
+            this.Size = new Size(desiredWidth, desiredHeight);
+            frm.FormBorderStyle = FormBorderStyle.None;
+            frm.TopLevel = false;
+            panel_cha.Controls.Clear();
+            frm.Dock = DockStyle.Fill;
+            panel_cha.Controls.Add(frm);
+            frm.Show();
+            pictureBox1.Dock = DockStyle.Fill;
+            panel_cha.Controls.Add(pictureBox1);
+            pictureBox1.Show();
         }
 
         private void thốngKêDoanhThuToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
             frmThongKeDoanhThu frm = new frmThongKeDoanhThu();
-            frm.ShowDialog();
-            this.Show();
+            int desiredWidth = frm.Width;
+            int desiredHeight = frm.Height + 20;
+            this.Size = new Size(desiredWidth, desiredHeight);
+            frm.FormBorderStyle = FormBorderStyle.None;
+            frm.TopLevel = false;
+            panel_cha.Controls.Clear();
+            frm.Dock = DockStyle.Fill;
+            panel_cha.Controls.Add(frm);
+            frm.Show();
+            pictureBox1.Dock = DockStyle.Fill;
+            panel_cha.Controls.Add(pictureBox1);
+            pictureBox1.Show();
+        }
+
+        private void homeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel_cha.Controls.Clear(); 
+            pictureBox1.Width = 924;
+            pictureBox1.Height = 587;
+            panel_cha.Controls.Add(pictureBox1);
         }
     }
 }

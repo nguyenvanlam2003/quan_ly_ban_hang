@@ -52,7 +52,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.panel1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.panel1.Controls.Add(this.btnDong);
             this.panel1.Controls.Add(this.btnLamMoi);
             this.panel1.Controls.Add(this.btnThongKe);
@@ -65,7 +65,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1026, 165);
             this.panel1.TabIndex = 0;
@@ -76,7 +76,7 @@
             this.btnDong.Image = ((System.Drawing.Image)(resources.GetObject("btnDong.Image")));
             this.btnDong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDong.Location = new System.Drawing.Point(884, 66);
-            this.btnDong.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDong.Margin = new System.Windows.Forms.Padding(2);
             this.btnDong.Name = "btnDong";
             this.btnDong.Size = new System.Drawing.Size(125, 28);
             this.btnDong.TabIndex = 7;
@@ -90,7 +90,7 @@
             this.btnLamMoi.Image = ((System.Drawing.Image)(resources.GetObject("btnLamMoi.Image")));
             this.btnLamMoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLamMoi.Location = new System.Drawing.Point(733, 66);
-            this.btnLamMoi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLamMoi.Margin = new System.Windows.Forms.Padding(2);
             this.btnLamMoi.Name = "btnLamMoi";
             this.btnLamMoi.Size = new System.Drawing.Size(125, 28);
             this.btnLamMoi.TabIndex = 6;
@@ -102,7 +102,7 @@
             // 
             this.btnThongKe.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThongKe.Location = new System.Drawing.Point(586, 67);
-            this.btnThongKe.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThongKe.Margin = new System.Windows.Forms.Padding(2);
             this.btnThongKe.Name = "btnThongKe";
             this.btnThongKe.Size = new System.Drawing.Size(125, 28);
             this.btnThongKe.TabIndex = 5;
@@ -115,7 +115,7 @@
             this.rdbPhieuNhap.AutoSize = true;
             this.rdbPhieuNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdbPhieuNhap.Location = new System.Drawing.Point(458, 72);
-            this.rdbPhieuNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rdbPhieuNhap.Margin = new System.Windows.Forms.Padding(2);
             this.rdbPhieuNhap.Name = "rdbPhieuNhap";
             this.rdbPhieuNhap.Size = new System.Drawing.Size(99, 22);
             this.rdbPhieuNhap.TabIndex = 4;
@@ -128,7 +128,7 @@
             this.rdbHoaDon.AutoSize = true;
             this.rdbHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdbHoaDon.Location = new System.Drawing.Point(364, 72);
-            this.rdbHoaDon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rdbHoaDon.Margin = new System.Windows.Forms.Padding(2);
             this.rdbHoaDon.Name = "rdbHoaDon";
             this.rdbHoaDon.Size = new System.Drawing.Size(83, 22);
             this.rdbHoaDon.TabIndex = 3;
@@ -141,7 +141,7 @@
             this.dtpNgayKT.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpNgayKT.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpNgayKT.Location = new System.Drawing.Point(148, 99);
-            this.dtpNgayKT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtpNgayKT.Margin = new System.Windows.Forms.Padding(2);
             this.dtpNgayKT.Name = "dtpNgayKT";
             this.dtpNgayKT.Size = new System.Drawing.Size(151, 24);
             this.dtpNgayKT.TabIndex = 2;
@@ -162,7 +162,7 @@
             this.dtpNgayBD.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpNgayBD.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpNgayBD.Location = new System.Drawing.Point(148, 42);
-            this.dtpNgayBD.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtpNgayBD.Margin = new System.Windows.Forms.Padding(2);
             this.dtpNgayBD.Name = "dtpNgayBD";
             this.dtpNgayBD.Size = new System.Drawing.Size(151, 24);
             this.dtpNgayBD.TabIndex = 1;
@@ -191,12 +191,13 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.panel2.Controls.Add(this.lbBangChu1);
             this.panel2.Controls.Add(this.txtTong);
             this.panel2.Controls.Add(this.lbDoanhThu);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 515);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Location = new System.Drawing.Point(0, 374);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1026, 93);
             this.panel2.TabIndex = 1;
@@ -214,8 +215,8 @@
             // txtTong
             // 
             this.txtTong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTong.Location = new System.Drawing.Point(196, 24);
-            this.txtTong.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTong.Location = new System.Drawing.Point(196, 30);
+            this.txtTong.Margin = new System.Windows.Forms.Padding(2);
             this.txtTong.Name = "txtTong";
             this.txtTong.Size = new System.Drawing.Size(114, 23);
             this.txtTong.TabIndex = 1;
@@ -224,7 +225,7 @@
             // 
             this.lbDoanhThu.AutoSize = true;
             this.lbDoanhThu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbDoanhThu.Location = new System.Drawing.Point(55, 24);
+            this.lbDoanhThu.Location = new System.Drawing.Point(55, 30);
             this.lbDoanhThu.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbDoanhThu.Name = "lbDoanhThu";
             this.lbDoanhThu.Size = new System.Drawing.Size(42, 18);
@@ -236,10 +237,10 @@
             this.dgvThongKe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvThongKe.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvThongKe.Location = new System.Drawing.Point(0, 165);
-            this.dgvThongKe.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvThongKe.Margin = new System.Windows.Forms.Padding(2);
             this.dgvThongKe.Name = "dgvThongKe";
             this.dgvThongKe.RowTemplate.Height = 24;
-            this.dgvThongKe.Size = new System.Drawing.Size(1026, 350);
+            this.dgvThongKe.Size = new System.Drawing.Size(1026, 209);
             this.dgvThongKe.TabIndex = 10;
             this.dgvThongKe.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvThongKe_CellContentClick);
             // 
@@ -247,12 +248,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1026, 608);
+            this.ClientSize = new System.Drawing.Size(1026, 467);
             this.Controls.Add(this.dgvThongKe);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmThongKeDoanhThu";
             this.Text = "frmThongKeDoanhThu";
             this.Load += new System.EventHandler(this.frmThongKeDoanhThu_Load);
